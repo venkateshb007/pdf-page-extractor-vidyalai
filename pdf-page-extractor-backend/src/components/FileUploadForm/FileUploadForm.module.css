@@ -1,0 +1,32 @@
+.form_container {
+  width: 100%;
+  /* border: 1px solid black; */
+
+  h2 {
+    font-size: 24px;
+  }
+
+  /* Style the input element */
+  input[type="file"] {
+    margin-top: 20px;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="file"]:hover {
+    background: #0056b3;
+  }
+}
+
+form {
+  /* border: 1px solid red; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,45 @@
+.App {
+  background-color: rgb(248, 246, 246);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.generate_pdf_btn_container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style your FileUploadForm, PDFViewer, and other components as needed */
+
+/* You can add media queries to make it even more responsive on different screen sizes */
+
+@media screen and (max-width: 768px) {
+  /* Add styles for screens with a width up to 768px */
+  .generate_pdf_btn_container {
+    margin-top: 10px;
+  }
+}
+
+.download_link_div {
+  background-color: rgb(151, 143, 245);
+  margin-top: 10px;
+}
+
+.download_link_div a {
+  color: rgb(173, 243, 9);
+}
